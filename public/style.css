@@ -1,0 +1,242 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+/* message page style */
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 85px);
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.message-header .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.message-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  max-height: 100%;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+
+}
+
+.message-item {
+  position: relative;
+  display: flex;
+  padding: 12px 10px;
+  color: #333;
+  border: 1px solid #333;
+  background-color: #f9e7bc;
+  max-width: 80%;
+  width: fit-content;
+  margin-bottom: 20px;
+  border-radius: 10px 10px 10px 0;
+}
+
+.message-item .quick-emojis {
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  display: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+.message-item:hover .quick-emojis {
+  display: flex;
+}
+.quick-emojis .quick-emojis-item {
+  cursor: pointer;
+}
+
+.message-item img {
+  max-width: 100%;
+}
+
+.message-item.me {
+  align-self: flex-end;
+  border-radius: 10px 10px 0 10px;
+  background-color: #b8dfd4;
+}
+
+.message-footer {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.message-input-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
+.message-input {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.message-input input {
+  width: 100%;
+  height: 25px;
+  border: none;
+  outline: none;
+}
+
+.message-emoji-list {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 312px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  z-index: 9;
+}
+
+.message-emoji-item {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.message-emoji-item:hover {
+  border: 1px solid #e1e1e1;
+}
+.message-emoji-shadow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.message-link{
+  padding: 1rem;
+  margin-right: 3rem;
+  color: #f5c7a9;
+  background-color: #3fa796;
+  border-radius: 3px;
+}
+
+.github_logo {
+  fill: white;
+}
+.github_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  min-height: 20px;
+  background-color: #24292e;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px 8px 0px;
+  border-radius: 5px;
+}
+/* google icons */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+
+.container {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myId {
+	margin-right: 5rem;
+  margin-left: 5rem;
+	border-radius: 5px;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #e2e2e2, #9cd7ba); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#d2dfa7
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 2rem;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10rem;
+	margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 4rem;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+.password-reset{
+  margin: 1rem;
+}
+.delete-comment-button{
+margin-left:auto;
+margin-right: 1rem;
+}
