@@ -1,16 +1,14 @@
 # Project: The Scratching Post
-## Deployed Link:
-https://capstone-social-media.herokuapp.com/
 
-### Language:
+## Language:
 Javascript
 
-### Frameworks:
+## Frameworks:
 Express.js
 
-### Libraries:
+## Libraries:
 React, Redux, Sequelize, Bcrypt, JSON Web Tokens, Material UI, Socket.IO, styled-components, GithubOATH, Faker
-### Tooling:
+## Tooling:
 Git, Node.js, Webpack, Babel
 
 ## Description:
