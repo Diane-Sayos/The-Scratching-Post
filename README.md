@@ -1,9 +1,9 @@
 # The Scratching Post
 
-<details>
+<!-- <details>
     <summary>Active Link</summary>
     https://the-scratching-post.netlify.app/
-</details>
+</details> -->
 <details>
     <summary>Description</summary>
     A Social Media Platform that lets users post pictures with captions. Users are able to see public posts without any need of creating an account.
